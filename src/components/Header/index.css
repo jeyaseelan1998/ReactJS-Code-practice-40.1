@@ -1,1 +1,89 @@
-/* Write your CSS here */
+.nav-bar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.logo {
+  width: 65px;
+  user-select: none;
+  cursor: pointer;
+}
+
+.hamburger-menu-button {
+  width: 45px;
+  height: 45px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  border-radius: 4px;
+}
+
+.hamburger-menu-button:active {
+  background-color: #00000020;
+}
+
+.hamburger-menu-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.popup-content {
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.close-button {
+  align-self: flex-end;
+  height: 25px;
+  width: 25px;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.close-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.nav-link-items {
+  padding-left: 0;
+  margin: auto;
+  list-style: none;
+}
+
+.nav-link-items li {
+  margin-bottom: 25px;
+}
+
+.nav-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #000;
+}
+.nav-link p {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+  margin-left: 10px;
+}
+.nav-icon {
+  width: 25px;
+  height: 25px;
+}
